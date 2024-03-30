@@ -1,0 +1,300 @@
+.label {
+    position: relative;
+    background-color: #040f85;
+    width: fit-content;
+    text-align: center;
+
+    &__text {
+        color: white;
+        font-size: inherit;
+    }
+
+    &__text-span {
+        color: #ffe500;
+        font-size: inherit;
+    }
+
+    &__corner {
+        position: absolute;
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: white;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: white;
+        }
+    }
+
+    &--lg {
+        border: 6px solid white;
+        padding: 0 60px;
+
+        .label__text {
+            font-size: 48px;
+        }
+
+        .label__text-span {
+            font-size: 48px;
+        }
+
+        .label__top-left {
+            left: -20px;
+            top: -20px;
+
+            &::after {
+                width: 20px;
+                height: 6px;
+                top: 0;
+                left: 6px;
+            }
+
+            &::before {
+                width: 6px;
+                height: 26px;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .label__top-rigth {
+            right: -20px;
+            top: -20px;
+
+            &::after {
+                width: 20px;
+                height: 6px;
+                top: 0;
+                right: 6px;
+            }
+
+            &::before {
+                width: 6px;
+                height: 26px;
+                top: 0;
+                right: 0;
+            }
+        }
+
+        .label__bottom-left {
+            bottom: -20px;
+            left: -20px;
+
+            &::after {
+                width: 20px;
+                height: 6px;
+                bottom: 0;
+                left: 6px;
+            }
+
+            &::before {
+                width: 6px;
+                height: 26px;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .label__bottom-right {
+            bottom: -20px;
+            right: -20px;
+
+            &::after {
+                width: 20px;
+                height: 6px;
+                bottom: 0;
+                right: 6px;
+            }
+
+            &::before {
+                width: 6px;
+                height: 26px;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+    &--md {
+        padding: 0 45px;
+        border: 5px solid white;
+
+        .label__text {
+            font-size: 38px;
+        }
+
+        .label__text-span {
+            font-size: 38px;
+        }
+
+        .label__top-left {
+            left: -16px;
+            top: -16px;
+
+            &::after {
+                width: 20px;
+                height: 5px;
+                top: 0;
+                left: 5px;
+            }
+
+            &::before {
+                width: 5px;
+                height: 26px;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .label__top-rigth {
+            right: -16px;
+            top: -16px;
+
+            &::after {
+                width: 20px;
+                height: 5px;
+                top: 0;
+                right: 5px;
+            }
+
+            &::before {
+                width: 5px;
+                height: 26px;
+                top: 0;
+                right: 0;
+            }
+        }
+
+        .label__bottom-left {
+            bottom: -16px;
+            left: -16px;
+
+            &::after {
+                width: 20px;
+                height: 5px;
+                bottom: 0;
+                left: 5px;
+            }
+
+            &::before {
+                width: 5px;
+                height: 26px;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .label__bottom-right {
+            bottom: -16px;
+            right: -16px;
+
+            &::after {
+                width: 20px;
+                height: 5px;
+                bottom: 0;
+                right: 5px;
+            }
+
+            &::before {
+                width: 5px;
+                height: 26px;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+    &--sm {
+        border: 3px solid white;
+        padding: 0 30px;
+
+
+        .label__text {
+            font-size: 20px;
+        }
+
+        .label__text-span {
+            font-style: 20px;
+        }
+
+        .label__top-left {
+            left: -10px;
+            top: -10px;
+
+            &::after {
+                width: 14px;
+                height: 3px;
+                top: 0;
+                left: 3px;
+            }
+
+            &::before {
+                width: 3px;
+                height: 14px;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .label__top-rigth {
+            right: -10px;
+            top: -10px;
+
+            &::after {
+                width: 14px;
+                height: 3px;
+                top: 0;
+                right: 3px;
+            }
+
+            &::before {
+                width: 3px;
+                height: 14px;
+                top: 0;
+                right: 0;
+            }
+        }
+
+        .label__bottom-left {
+            bottom: -10px;
+            left: -10px;
+
+            &::after {
+                width: 14px;
+                height: 3px;
+                bottom: 0;
+                left: 3px;
+            }
+
+            &::before {
+                width: 3px;
+                height: 14px;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .label__bottom-right {
+            bottom: -10px;
+            right: -10px;
+
+            &::after {
+                width: 14px;
+                height: 3px;
+                bottom: 0;
+                right: 3px;
+            }
+
+            &::before {
+                width: 3px;
+                height: 14px;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}

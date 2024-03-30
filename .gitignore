@@ -1,0 +1,37 @@
+# Загальні системні файли
+.DS_Store
+
+# Каталоги з залежностями та налаштуваннями
+/node_modules/
+/.cache/
+/.vscode/
+
+# Збірка та тимчасові файли
+/build/
+/dist/
+/.temp/
+*.log
+
+# Файли конфігурації
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Інші тимчасові файли
+*.swp
+*.lock
+*.bak
+*.tmp
+
+# Кешовані файли та каталоги
+.cache/
+.idea/
+
+# Файли, які можуть містити конфіденційну інформацію
+.env
+*.key
+
+# Файли конфігурації проекту IDE
+*.iml
+node_modules
