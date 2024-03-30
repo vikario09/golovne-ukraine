@@ -74,6 +74,9 @@ function watching() {
     browserSync.init({
         server: {
             baseDir: "app/"
+        },
+        ghostMode: {
+            scroll: false
         }
     });
     watch(['src/scss/**/*.scss'], styles)
